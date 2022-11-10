@@ -21,15 +21,13 @@
           <!-- logo -->
           <div class="flex space-x-7">
             <a href="#" class="flex items-center py-4 px-2">
-              <img src="assets/img/logo.png" alt="Logo" class="h-8 sm:h-12 mr-2" />
+              <img src="assets/img/logo.png" alt="Logo" class="h-12" />
             </a>
           </div>
 
           <div class="hidden md:flex items-center space-x-10">
-            <a href="" class="nav-item nav-active">Home</a>
-            <a href="" class="nav-item">Services</a>
-            <a href="" class="nav-item">About</a>
-            <a href="" class="nav-item">Contact Us</a>
+            <a href="#about" class="nav-item">About US</a>
+            <a href="#service" class="nav-item">Services</a>
           </div>
           <div class="md:hidden flex items-center">
             <button class="outline-none menu-button">
@@ -47,32 +45,92 @@
           </div>
         </div>
       </div>
-      <div class="hidden md:hidden mobile-menu px-4">
+      <div class="hidden md:hidden fixed mobile-menu px-4 w-full bg-white">
         <ul>
-          <li class="nav-mobile-active"><a href="#" class="nav-mobile-item">Home</a></li>
-          <li><a href="#" class="nav-mobile-item">Services</a></li>
-          <li><a href="#" class="nav-mobile-item">About</a></li>
-          <li><a href="#" class="nav-mobile-item">Contact Us</a></li>
+          <li><a href="#about" class="nav-mobile-item">About US</a></li>
+          <li><a href="#service" class="nav-mobile-item">Services</a></li>
         </ul>
       </div>
     </nav>
 
     <!-- main section -->
-    <section>
-      <div class="img-content fixed -z-50">
-        <img src="assets/img/img-header-right.png" alt="img-header-right" class="fixed top-0 right-0 -z-10 w-[80%] lg:w-[40%]"/>
-        <img src="assets/img/img-hero-left.png" alt="img-hero-left" class="fixed top-0 left-0 -z-50 w-[60%]"/>
-        <img src="assets/img/img-hero-right.png" alt="img-hero-right" class="fixed top-20 right-0 -z-50 w-[20%]"/>
-      </div>
-      <div>
-        asldfjasodfijsaodfjsdiofjasdfasdf
-      </div>
-    </section>
+    <div class="img-content absolute -z-50 w-full">
+      <img src="assets/img/img-header-right.png" alt="img-header-right" class="absolute -top-20 right-0 -z-10 w-[80%] lg:w-[40%]"/>
+      <img src="assets/img/img-hero-left.png" alt="img-hero-left" class="absolute -top-20 left-0 -z-50 w-[60%]"/>
+      <img src="assets/img/img-hero-right.png" alt="img-hero-right" class="absolute top-20 right-0 -z-50 w-[20%]"/>
+    </div>
 
+    <!-- section container -->
+    <div class="container-fullid mx-auto">
+      <!-- section about us -->
+      <section id="about" class="flex flex-col md:flex-row items-center">
+        <div class="section-img-container">
+          <img src="assets/img/logo-hero.png" alt="log-hero" class="section-img"/>
+        </div>
+        <div data-lang="ES" class="hidden section-content">
+          <h1 class="section-header">QUIENES SOMOS</h1>
+          <div class="section-body">
+            <p>Somos una empresa joven, nacida en plena pandemia, que apuesta por las empresas españoles dedicadas al servicio de la hostelería y restauración.</p>
+            <p>Ofrecemos soluciones financieras y empresariales al sector hostelero español, simplificando los procesos y aumentando los beneficios, para sacar adelante tu negocio sin importar las circunstancias.</p>
+          </div>
+        </div>
+        <div data-lang="EN" class="section-content">
+          <h1 class="section-header">ABOUT US</h1>
+          <div class="section-body">
+            <p>We are a young company, born in the midst of a pandemic, that is committed to Spanish companies dedicated to the hotel and restaurant service.</p>
+            <p>We offer financial and business solutions to the Spanish hospitality sector, simplifying processes and increasing profits, to move your business forward regardless of the circumstances.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- section hero -->
+      <section id="service" class="flex flex-col md:flex-row-reverse items-center">
+        <div class="section-img-container">
+          <img src="assets/img/logo-hero.png" alt="log-hero" class="section-img"/>
+        </div>
+        <div data-lang="ES" class="hidden section-content">
+          <h1 class="section-header">QUIENES SOMOS</h1>
+          <div class="section-body">
+            <p>Somos una empresa joven, nacida en plena pandemia, que apuesta por las empresas españoles dedicadas al servicio de la hostelería y restauración.</p>
+            <p>Ofrecemos soluciones financieras y empresariales al sector hostelero español, simplificando los procesos y aumentando los beneficios, para sacar adelante tu negocio sin importar las circunstancias.</p>
+          </div>
+        </div>
+        <div data-lang="EN" class="section-content">
+          <h1 class="section-header">SERVICES</h1>
+          <div class="section-body">
+            <div class="section-sub-body">
+              <p class="section-subtitle">- FAST LOANS</p>
+              <p class="section-subcontent">We offer fast loans to professionals and entrepreneurs in the sector, simplifying processes and guaranteeing immediate liquidity.</p>
+            </div>
+            <div class="section-sub-body">
+              <p class="section-subtitle">- STRATEGIC FINANCING</p>
+              <p class="section-subcontent">We finance innovative and successful projects, so that your idea comes to light and becomes a reality. Without bureaucracy and without complications.</p>
+            </div>
+            <div class="section-sub-body">
+              <p class="section-subtitle">- YOUR STRATEGIC PARTNERS</p>
+              <p class="section-subcontent">We propose to be your partners in this sweet path called success, dealing with those complex factors that slow down the normal development of your business.</p>
+            </div>
+            <div class="section-sub-body">
+              <p class="section-subtitle">- PURCHASE OF TRANSFERS</p>
+              <p class="section-subcontent">We buy your active and functional business, so that you can dedicate yourself to what you really want, retire or start a new stage in your life.</p>
+            </div>
+            <div class="section-sub-body">
+              <p class="section-subtitle">- SALE OF TRANSFERS</p>
+              <p class="section-subcontent">Do you want to enter the fantastic world of hospitality? We make it happen! We have many businesses active and running at incredible prices, so you can start working immediately, avoiding a large investment, bureaucracy, license requests, and others. All our establishments for sale are currently working, billing and with all their permits and documentation up to date!</p>
+            </div>
+            <div class="section-sub-body">
+              <p class="section-subtitle">- WE DESIGN YOUR MENU</p>
+              <p class="section-subcontent">You don't need Michelin stars or haute cuisine to give your delicious gastronomic options a professional image. We take care that your place is on everyone's lips.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    
     <!-- footer -->
-    <footer>
-      <img src="assets/img/img-footer-right.png" alt="img-footer-right" class="fixed bottom-0 right-0 -z-50"/>
-    </footer>
+    <div class="absolute w-full">
+      <img src="assets/img/img-footer-right.png" alt="img-footer-right" class="absolute bottom-0 right-0 -z-50"/>
+    </div>
   </body>
   <script>
     const btn = document.querySelector('button.menu-button');
