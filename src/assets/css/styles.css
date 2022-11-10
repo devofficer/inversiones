@@ -672,6 +672,15 @@ video {
     margin-right: 2.5rem;
   }
 }
+.section-img-container-reverse {
+  margin-bottom: 2.5rem;
+}
+@media (min-width: 768px) {
+
+  .section-img-container-reverse {
+    margin-left: 2.5rem;
+  }
+}
 .section-img {
   width: 100%;
 }
