@@ -7,37 +7,78 @@
     <meta name="author" content="Daily Dev Tips" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="css/styles.css" />
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
+    <link rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
     />
   </head>
   <body class="bg-white">
     <!-- navbar -->
     <nav class="bg-transparent">
-      <div class="max-w-full mx-auto px-4">
-        <div class="flex justify-between">
+      <div class="max-w-full mx-auto pl-4 pr-10">
+        <div class="flex items-center justify-between">
+          <!-- logo -->
           <div class="flex space-x-7">
-            <!-- company logo-->
             <a href="#" class="flex items-center py-4 px-2">
-              <img src="assets/img/logo.png" alt="Logo" class="h-12 mr-2" />
+              <img src="assets/img/logo.png" alt="Logo" class="h-8 sm:h-12 mr-2" />
             </a>
           </div>
+
+          <div class="hidden md:flex items-center space-x-10">
+            <a href="" class="nav-item nav-active">Home</a>
+            <a href="" class="nav-item">Services</a>
+            <a href="" class="nav-item">About</a>
+            <a href="" class="nav-item">Contact Us</a>
+          </div>
+          <div class="md:hidden flex items-center">
+            <button class="outline-none menu-button">
+              <svg class="w-6 h-6 text-gray-500" 
+                x-show="!showMenu" 
+                fill="none" 
+                stroke-linecap="round"
+                stroke-linejoin="round" 
+                stroke-width="2" 
+                viewBox="0 00 24 24" 
+                stroke="currentColor">
+                <path d="m4 6h16M4 12h16M4 18h16"><path>
+              </svg>
+            </button>
+          </div>
         </div>
+      </div>
+      <div class="hidden md:hidden mobile-menu px-4">
+        <ul>
+          <li class="nav-mobile-active"><a href="#" class="nav-mobile-item">Home</a></li>
+          <li><a href="#" class="nav-mobile-item">Services</a></li>
+          <li><a href="#" class="nav-mobile-item">About</a></li>
+          <li><a href="#" class="nav-mobile-item">Contact Us</a></li>
+        </ul>
       </div>
     </nav>
 
     <!-- main section -->
     <section>
-      <img src="assets/img/img-header-right.png" alt="img-header-right" class="fixed top-0 right-0"/>
+      <div class="img-content fixed -z-50">
+        <img src="assets/img/img-header-right.png" alt="img-header-right" class="fixed top-0 right-0 -z-10 w-[80%] lg:w-[40%]"/>
+        <img src="assets/img/img-hero-left.png" alt="img-hero-left" class="fixed top-0 left-0 -z-50 w-[60%]"/>
+        <img src="assets/img/img-hero-right.png" alt="img-hero-right" class="fixed top-20 right-0 -z-50 w-[20%]"/>
+      </div>
+      <div>
+        asldfjasodfijsaodfjsdiofjasdfasdf
+      </div>
     </section>
 
     <!-- footer -->
     <footer>
-      <img src="assets/img/img-footer-right.png" alt="img-footer-right" class="fixed bottom-0 right-0"/>
+      <img src="assets/img/img-footer-right.png" alt="img-footer-right" class="fixed bottom-0 right-0 -z-50"/>
     </footer>
   </body>
-  
+  <script>
+    const btn = document.querySelector('button.menu-button');
+    const menu = document.querySelector('.mobile-menu');
+    btn.addEventListener('click', () => {
+      menu.classList.toggle('hidden');
+    });
+  </script>
 </html>

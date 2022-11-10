@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .nav-item {
+        @apply py-4 px-2 text-gray-500 font-semibold hover:text-purple-500 transition duration-300;
+    }
+
+    .nav-active {
+        @apply border-b-4 border-purple-500;
+    }
+
+    .nav-mobile-item {
+        @apply block text-sm font-semibold px-2 py-4 hover:bg-purple-500 hover:text-white transition duration-300;
+    }
+
+    .nav-mobile-active {
+        @apply text-purple-500;
+    }
+}
