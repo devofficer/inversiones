@@ -28,12 +28,24 @@
             </a>
           </div>
 
-          <div class="hidden md:flex items-center space-x-10">
-            <a href="#about" class="nav-item">About US</a>
-            <a href="#service" class="nav-item">Services</a>
+          <div class="hidden md:flex items-center space-x-24">
+            <div data-lang="EN">
+              <a href="#about" class="nav-item">ABOUT US</a>
+              <a href="#service" class="nav-item">SERVICES</a>
+            </div>
+            <div data-lang="ES">
+              <a href="#about" class="nav-item">QUIENES SOMOS</a>
+              <a href="#service" class="nav-item">SERVICIOS</a>
+            </div>
           </div>
-          <div class="md:hidden flex items-center">
-            <button class="outline-none menu-button">
+
+          <div class="flex items-center">
+            <div class="language">
+              <a data-lang="ES" data-target="EN"><img src="assets/img/lang/en.png" class="lang-button"/></a>
+              <a data-lang="EN" data-target="ES"><img src="assets/img/lang/es.png" class="lang-button"/></a>
+            </div>
+
+            <button class="md:hidden outline-none menu-button">
               <svg class="w-6 h-6 text-gray-500" 
                 x-show="!showMenu" 
                 fill="none" 
@@ -48,10 +60,15 @@
           </div>
         </div>
       </div>
+      
       <div class="hidden md:hidden fixed mobile-menu px-4 w-full bg-white transition ease-in-out duration-300">
-        <ul>
-          <li><a href="#about" class="nav-mobile-item">About US</a></li>
-          <li><a href="#service" class="nav-mobile-item">Services</a></li>
+        <ul data-lang="ES">
+          <li><a href="#about" class="nav-mobile-item">QUIENES SOMOS</a></li>
+          <li><a href="#service" class="nav-mobile-item">SERVICIOS</a></li>
+        </ul>
+        <ul data-lang="EN">
+          <li><a href="#about" class="nav-mobile-item">ABOUT US</a></li>
+          <li><a href="#service" class="nav-mobile-item">SERVICES</a></li>
         </ul>
       </div>
     </nav>
@@ -70,7 +87,7 @@
         <div class="section-img-container">
           <img src="assets/img/logo-hero.png" alt="log-hero" class="section-img"/>
         </div>
-        <div data-lang="ES" class="hidden section-content">
+        <div data-lang="ES" class="section-content">
           <h1 class="section-header">QUIENES SOMOS</h1>
           <div class="section-body">
             <p>Somos una empresa joven, nacida en plena pandemia, que apuesta por las empresas españoles dedicadas al servicio de la hostelería y restauración.</p>
@@ -91,7 +108,7 @@
         <div class="section-img-container-reverse">
           <img src="assets/img/logo-hero.png" alt="log-hero" class="section-img"/>
         </div>
-        <div data-lang="ES" class="hidden section-content-reverse">
+        <div data-lang="ES" class="section-content-reverse">
           <h1 class="section-header">SERVICIOS</h1>
           <div class="section-body">
             <div class="section-sub-body">

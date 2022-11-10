@@ -506,6 +506,8 @@ video {
   padding-bottom: 1rem;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
   font-weight: 600;
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
@@ -684,6 +686,10 @@ video {
 .section-img {
   width: 100%;
 }
+.lang-button {
+  width: 2.5rem;
+  cursor: pointer;
+}
 .fixed {
   position: fixed;
 }
@@ -759,10 +765,10 @@ video {
   margin-right: calc(1.75rem * var(--tw-space-x-reverse));
   margin-left: calc(1.75rem * calc(1 - var(--tw-space-x-reverse)));
 }
-.space-x-10 > :not([hidden]) ~ :not([hidden]) {
+.space-x-24 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
-  margin-right: calc(2.5rem * var(--tw-space-x-reverse));
-  margin-left: calc(2.5rem * calc(1 - var(--tw-space-x-reverse)));
+  margin-right: calc(6rem * var(--tw-space-x-reverse));
+  margin-left: calc(6rem * calc(1 - var(--tw-space-x-reverse)));
 }
 .bg-white {
   --tw-bg-opacity: 1;

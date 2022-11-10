@@ -4,7 +4,7 @@
 
 @layer components {
     .nav-item {
-        @apply py-4 px-2 text-gray-500 font-semibold hover:text-purple-500 transition ease-in-out duration-300;
+        @apply py-4 px-2 text-gray-500 font-semibold text-xl hover:text-purple-500 transition ease-in-out duration-300;
     }
 
     .nav-active {
@@ -49,5 +49,9 @@
 
     .section-img {
         @apply w-full;
+    }
+
+    .lang-button {
+        @apply w-10 cursor-pointer;
     }
 }
