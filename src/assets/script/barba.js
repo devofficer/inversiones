@@ -2,7 +2,7 @@ barba.init();
 
 function appearContentY(element) {
     const posDelta = -100;
-    const duration = 1.5;
+    const duration = 0.5;
 
     gsap.fromTo(element, { x: 0, y: posDelta, autoAlpha: 0 }, {
       duration: duration, 
@@ -17,7 +17,7 @@ function appearContentY(element) {
 function appearContentX(element, reverse, durDelta) {
     const flag = reverse ? -1 : 1;
     const posDelta = (500 + durDelta * 300) * flag;
-    const duration = 3 + 0.5 * durDelta;
+    const duration = 2 + 0.5 * durDelta;
 
     gsap.fromTo(element, { x: posDelta, y: 0, autoAlpha: 0 }, {
       duration: duration, 
