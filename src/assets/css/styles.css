@@ -724,15 +724,13 @@ video {
   text-transform: uppercase;
 }
 .footer-container {
+  margin-bottom: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding-left: 2.5rem;
   padding-right: 2.5rem;
-  font-weight: 600;
-  --tw-text-opacity: 1;
-  color: rgb(249 115 22 / var(--tw-text-opacity));
 }
 @media (min-width: 768px) {
 
@@ -789,6 +787,9 @@ video {
 }
 .h-6 {
   height: 1.5rem;
+}
+.h-24 {
+  height: 6rem;
 }
 .w-6 {
   width: 1.5rem;
@@ -880,6 +881,9 @@ video {
 }
 .pr-10 {
   padding-right: 2.5rem;
+}
+.text-center {
+  text-align: center;
 }
 .text-gray-500 {
   --tw-text-opacity: 1;

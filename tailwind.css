@@ -66,6 +66,6 @@
     }
 
     .footer-container {
-        @apply px-10 md:px-20 flex flex-col items-center justify-center text-orange-500 font-semibold;
+        @apply px-10 md:px-20 flex flex-col items-center justify-center mb-4;
     }
 }
