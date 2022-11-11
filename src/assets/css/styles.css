@@ -610,18 +610,22 @@ video {
   }
 }
 .section-subtitle {
-  flex-direction: column;
+  display: flex;
+  align-items: center;
 }
 .section-subtitle > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 .section-subtitle {
   padding-top: 1rem;
   text-align: justify;
   font-size: 1rem;
   line-height: 1.5rem;
+  font-weight: 600;
+  --tw-text-opacity: 1;
+  color: rgb(168 85 247 / var(--tw-text-opacity));
 }
 @media (min-width: 768px) {
 
@@ -700,6 +704,21 @@ video {
   font-weight: 700;
   text-transform: uppercase;
 }
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+@media (min-width: 768px) {
+
+  .footer-container {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
 .fixed {
   position: fixed;
 }
@@ -734,6 +753,9 @@ video {
   margin-left: auto;
   margin-right: auto;
 }
+.mt-10 {
+  margin-top: 2.5rem;
+}
 .flex {
   display: flex;
 }
@@ -761,6 +783,9 @@ video {
 .w-\[20\%\] {
   width: 20%;
 }
+.w-8 {
+  width: 2rem;
+}
 .max-w-full {
   max-width: 100%;
 }
@@ -772,6 +797,9 @@ video {
 }
 .items-center {
   align-items: center;
+}
+.justify-center {
+  justify-content: center;
 }
 .justify-between {
   justify-content: space-between;
@@ -796,12 +824,22 @@ video {
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
   margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
+.rounded-full {
+  border-radius: 9999px;
+}
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 .bg-transparent {
   background-color: transparent;
+}
+.bg-content {
+  background-color: #2bb4e333;
+}
+.bg-purple-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(168 85 247 / var(--tw-bg-opacity));
 }
 .py-4 {
   padding-top: 1rem;
@@ -824,6 +862,10 @@ video {
 .text-gray-500 {
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 .outline-none {
   outline: 2px solid transparent;

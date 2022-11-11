@@ -32,7 +32,7 @@
     }
 
     .section-subtitle {
-        @apply flex-col space-y-4 pt-4 text-justify text-base md:text-lg lg:text-xl;
+        @apply flex items-center text-purple-500 font-semibold space-x-2 pt-4 text-justify text-base md:text-lg lg:text-xl;
     }
 
     .section-subcontent {
@@ -57,5 +57,9 @@
 
     .lang-button {
         @apply flex items-center space-x-1 cursor-pointer uppercase font-bold rounded-full border-slate-300 p-1 pr-2 border-[1px];
+    }
+
+    .footer-container {
+        @apply px-10 md:px-20 flex flex-col items-center justify-center;
     }
 }

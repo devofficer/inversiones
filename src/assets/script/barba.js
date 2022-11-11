@@ -33,51 +33,51 @@ function hide(elem) {
     gsap.set(elem, { autoAlpha: 0 });
 }
   
-document.addEventListener("DOMContentLoaded", function() {
-    gsap.registerPlugin(ScrollTrigger);
+// document.addEventListener("DOMContentLoaded", function() {
+//     gsap.registerPlugin(ScrollTrigger);
 
-    gsap.utils.toArray(".section-img-container").forEach(function(element, index) {
-        ScrollTrigger.create({
-            trigger: element,
-            onEnter: function() { appearContentX(element, true, index) }, 
-            // onEnterBack: function() {},
-            // onLeave: function() { hide(elem) }
-        });
-    });
+//     gsap.utils.toArray(".section-img-container").forEach(function(element, index) {
+//         ScrollTrigger.create({
+//             trigger: element,
+//             onEnter: function() { appearContentX(element, true, index) }, 
+//             // onEnterBack: function() {},
+//             // onLeave: function() { hide(elem) }
+//         });
+//     });
 
-    gsap.utils.toArray(".section-content > *").forEach(function(element, index) {
-        ScrollTrigger.create({
-            trigger: element,
-            onEnter: function() { appearContentX(element, false, index) }, 
-            // onEnterBack: function() {},
-            // onLeave: function() { hide(elem) }
-        });
-    });
+//     gsap.utils.toArray(".section-content > *").forEach(function(element, index) {
+//         ScrollTrigger.create({
+//             trigger: element,
+//             onEnter: function() { appearContentX(element, false, index) }, 
+//             // onEnterBack: function() {},
+//             // onLeave: function() { hide(elem) }
+//         });
+//     });
 
-    gsap.utils.toArray(".section-img-container-reverse").forEach(function(element, index) {
-        ScrollTrigger.create({
-            trigger: element,
-            onEnter: function() { appearContentX(element, false, index) }, 
-            // onEnterBack: function() {},
-            // onLeave: function() { hide(elem) }
-        });
-    });
+//     gsap.utils.toArray(".section-img-container-reverse").forEach(function(element, index) {
+//         ScrollTrigger.create({
+//             trigger: element,
+//             onEnter: function() { appearContentX(element, false, index) }, 
+//             // onEnterBack: function() {},
+//             // onLeave: function() { hide(elem) }
+//         });
+//     });
 
-    gsap.utils.toArray(".section-content-reverse > *").forEach(function(element, index) {
-        ScrollTrigger.create({
-            trigger: element,
-            onEnter: function() { appearContentX(element, true, index) }, 
-            // onEnterBack: function() {},
-            // onLeave: function() { hide(elem) }
-        });
-    });
+//     gsap.utils.toArray(".section-content-reverse > *").forEach(function(element, index) {
+//         ScrollTrigger.create({
+//             trigger: element,
+//             onEnter: function() { appearContentX(element, true, index) }, 
+//             // onEnterBack: function() {},
+//             // onLeave: function() { hide(elem) }
+//         });
+//     });
 
-    gsap.utils.toArray("nav").forEach(function(element, index) {
-        ScrollTrigger.create({
-            trigger: element,
-            onEnter: function() { appearContentY(element) }, 
-            // onEnterBack: function() {},
-            // onLeave: function() { hide(elem) }
-        });
-    });
-});
+//     gsap.utils.toArray("nav").forEach(function(element, index) {
+//         ScrollTrigger.create({
+//             trigger: element,
+//             onEnter: function() { appearContentY(element) }, 
+//             // onEnterBack: function() {},
+//             // onLeave: function() { hide(elem) }
+//         });
+//     });
+// });
