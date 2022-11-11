@@ -24,7 +24,7 @@
           <!-- logo -->
           <div class="flex space-x-7">
             <a href="#" class="flex items-center py-4 px-2">
-              <img src="assets/img/logo.png" alt="Logo" class="h-12"/>
+              <img src="assets/img/logo.png" alt="Logo" class="h-8 sm:h-10 md:h-12"/>
             </a>
           </div>
 
@@ -42,8 +42,14 @@
 
             <div class="flex items-center">
               <div class="language">
-                <a data-lang="ES" data-target="EN"><img src="assets/img/lang/en.png" class="lang-button"/></a>
-                <a data-lang="EN" data-target="ES"><img src="assets/img/lang/es.png" class="lang-button"/></a>
+                <a data-lang="ES" data-target="EN" class="lang-button">
+                  <img class="w-6" src="assets/img/lang/en.png"/> 
+                  <span>English</span>
+                </a>
+                <a data-lang="EN" data-target="ES" class="lang-button">
+                  <img class="w-6" src="assets/img/lang/es.png"/>
+                  <span>Español</span>
+                </a>
               </div>
 
               <button class="md:hidden outline-none menu-button">
