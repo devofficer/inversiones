@@ -594,7 +594,6 @@ video {
 }
 .section-body {
   padding-top: 1rem;
-  text-align: justify;
   font-size: 1rem;
   line-height: 1.5rem;
 }
@@ -623,7 +622,6 @@ video {
 }
 .section-subtitle {
   padding-top: 1rem;
-  text-align: justify;
   font-size: 1rem;
   line-height: 1.5rem;
   font-weight: 600;
@@ -817,6 +815,9 @@ video {
 }
 .flex-col {
   flex-direction: column;
+}
+.flex-wrap {
+  flex-wrap: wrap;
 }
 .items-center {
   align-items: center;

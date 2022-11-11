@@ -34,11 +34,11 @@
     }
 
     .section-body {
-        @apply flex-col space-y-4 pt-4 text-justify text-base md:text-lg lg:text-xl;
+        @apply flex-col space-y-4 pt-4 text-base md:text-lg lg:text-xl;
     }
 
     .section-subtitle {
-        @apply flex items-center text-orange-500 font-semibold space-x-2 pt-4 text-justify text-base md:text-lg lg:text-xl;
+        @apply flex items-center text-orange-500 font-semibold space-x-2 pt-4 text-base md:text-lg lg:text-xl;
     }
 
     .section-subcontent {
