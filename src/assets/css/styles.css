@@ -522,7 +522,7 @@ video {
 }
 .nav-item:hover {
   --tw-text-opacity: 1;
-  color: rgb(168 85 247 / var(--tw-text-opacity));
+  color: rgb(249 115 22 / var(--tw-text-opacity));
 }
 .nav-mobile-item {
   display: block;
@@ -568,7 +568,7 @@ video {
   line-height: 2rem;
   font-weight: 700;
   --tw-text-opacity: 1;
-  color: rgb(168 85 247 / var(--tw-text-opacity));
+  color: rgb(249 115 22 / var(--tw-text-opacity));
 }
 @media (min-width: 768px) {
 
@@ -628,7 +628,7 @@ video {
   line-height: 1.5rem;
   font-weight: 600;
   --tw-text-opacity: 1;
-  color: rgb(168 85 247 / var(--tw-text-opacity));
+  color: rgb(249 115 22 / var(--tw-text-opacity));
 }
 @media (min-width: 768px) {
 
@@ -682,7 +682,21 @@ video {
   }
 }
 .section-img {
-  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+@media (min-width: 768px) {
+
+  .section-img {
+    width: 70%;
+  }
+}
+@media (min-width: 1280px) {
+
+  .section-img {
+    width: 60%;
+  }
 }
 .language {
   margin-right: 0.5rem;
@@ -716,6 +730,9 @@ video {
   justify-content: center;
   padding-left: 2.5rem;
   padding-right: 2.5rem;
+  font-weight: 600;
+  --tw-text-opacity: 1;
+  color: rgb(249 115 22 / var(--tw-text-opacity));
 }
 @media (min-width: 768px) {
 
@@ -842,9 +859,9 @@ video {
 .bg-content {
   background-color: #2bb4e333;
 }
-.bg-purple-500 {
+.bg-orange-500 {
   --tw-bg-opacity: 1;
-  background-color: rgb(168 85 247 / var(--tw-bg-opacity));
+  background-color: rgb(249 115 22 / var(--tw-bg-opacity));
 }
 .py-4 {
   padding-top: 1rem;
