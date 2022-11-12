@@ -62,7 +62,7 @@
     }
 
     .lang-button {
-        @apply flex items-center text-xs space-x-1 cursor-pointer uppercase font-bold rounded-full border-slate-300 p-1 pr-2 border-[1px];
+        @apply flex items-center text-xs space-x-1 cursor-pointer uppercase font-bold rounded-full border-slate-300 p-1 pr-2 border-[1px] bg-white;
     }
 
     .footer-container {
