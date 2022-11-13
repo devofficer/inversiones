@@ -545,22 +545,19 @@ video {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
-.container-fullid > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(4rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(4rem * var(--tw-space-y-reverse));
-}
 .container-fullid {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 @media (min-width: 768px) {
 
   .container-fullid {
     padding-left: 5rem;
     padding-right: 5rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
   }
 }
 .section-header {
@@ -763,6 +760,9 @@ video {
 .h-6 {
   height: 1.5rem;
 }
+.h-40 {
+  height: 10rem;
+}
 .h-24 {
   height: 6rem;
 }
@@ -825,6 +825,16 @@ video {
 .rounded-full {
   border-radius: 9999px;
 }
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+.border-\[1px\] {
+  border-width: 1px;
+}
+.border-purple-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(168 85 247 / var(--tw-border-opacity));
+}
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -846,6 +856,9 @@ video {
 .bg-cyan-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(6 182 212 / var(--tw-bg-opacity));
+}
+.p-2 {
+  padding: 0.5rem;
 }
 .py-4 {
   padding-top: 1rem;
