@@ -40,12 +40,6 @@ langBtns.forEach(element => {
 });
 
 
-const submitBtn = document.querySelector('#submit_contact');
-submitBtn.addEventListener('click', (event) => {
-  event.preventDefault();
-
-});
-
 function animate(obj, initVal, lastVal, duration) {
   let startTime = null;
 
@@ -78,4 +72,5 @@ function animate(obj, initVal, lastVal, duration) {
 }
 
 const counter = document.querySelector("#counter");
+console.log(counter);
 animate(counter, 0, 300, 4000);
