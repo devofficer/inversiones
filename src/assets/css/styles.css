@@ -784,6 +784,9 @@ video {
 .max-w-full {
   max-width: 100%;
 }
+.grow {
+  flex-grow: 1;
+}
 .flex-col {
   flex-direction: column;
 }
