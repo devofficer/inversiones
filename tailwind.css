@@ -42,7 +42,7 @@
     }
 
     .section-body {
-        @apply flex-col space-y-4 pt-4 text-base md:text-lg lg:text-xl text-justify text-white;
+        @apply flex-col space-y-6 pt-4 text-base md:text-lg lg:text-xl text-justify text-white;
     }
 
     .section-sub-title {
