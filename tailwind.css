@@ -74,6 +74,6 @@
     }
 
     .footer-container {
-        @apply px-10 md:px-20 mb-4;
+        @apply px-10 md:px-20 mb-4 text-sm md:text-base;
     }
 }

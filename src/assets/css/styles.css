@@ -716,12 +716,16 @@ video {
   margin-bottom: 1rem;
   padding-left: 2.5rem;
   padding-right: 2.5rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 @media (min-width: 768px) {
 
   .footer-container {
     padding-left: 5rem;
     padding-right: 5rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 }
 .fixed {
