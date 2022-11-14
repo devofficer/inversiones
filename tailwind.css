@@ -42,7 +42,7 @@
     }
 
     .section-sub-content {
-        @apply p-4 rounded-br-[18px] rounded-tl-[18px];
+        @apply p-4 rounded-br-[18px] rounded-tl-[18px] lg:pb-20;
     }
 
     .section-body {

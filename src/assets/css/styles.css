@@ -594,6 +594,12 @@ video {
   border-top-left-radius: 18px;
   padding: 1rem;
 }
+@media (min-width: 1024px) {
+
+  .section-sub-content {
+    padding-bottom: 5rem;
+  }
+}
 .section-body {
   flex-direction: column;
 }
@@ -907,6 +913,9 @@ video {
 }
 .pr-10 {
   padding-right: 2.5rem;
+}
+.pt-6 {
+  padding-top: 1.5rem;
 }
 .text-center {
   text-align: center;
