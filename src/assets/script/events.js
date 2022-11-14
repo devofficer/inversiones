@@ -73,4 +73,4 @@ function animate(obj, initVal, lastVal, duration) {
 
 const counter = document.querySelector("#counter");
 console.log(counter);
-animate(counter, 0, 300, 5000);
+animate(counter, 0, 3000, 5000);

@@ -33,6 +33,10 @@
         @apply font-bold text-xl md:text-2xl lg:text-3xl;
     }
 
+    .counter-header {
+        @apply font-bold text-4xl;
+    }
+
     .section-content {
         @apply p-6 rounded-br-[24px] rounded-tl-[24px];
     }
