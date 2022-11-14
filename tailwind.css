@@ -30,11 +30,11 @@
     }
 
     .section-header {
-        @apply font-bold text-xl md:text-2xl lg:text-3xl;
+        @apply font-bold text-xl md:text-2xl;
     }
 
     .counter-header {
-        @apply font-bold text-4xl;
+        @apply font-bold text-3xl;
     }
 
     .section-content {
@@ -46,7 +46,7 @@
     }
 
     .section-body {
-        @apply flex-col space-y-6 pt-4 text-base md:text-lg lg:text-xl text-justify text-white;
+        @apply flex-col space-y-6 pt-4 text-base md:text-lg text-justify text-white;
     }
 
     .section-sub-title {
@@ -74,6 +74,10 @@
     }
 
     .footer-container {
-        @apply px-10 md:px-20 mb-4 text-sm md:text-base;
+        @apply px-4 md:px-10 mb-4 text-xs md:text-sm;
+    }
+
+    .sub-item {
+        @apply cursor-pointer;
     }
 }
