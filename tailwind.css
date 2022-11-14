@@ -10,7 +10,7 @@
 
 @layer components {
     .nav-item {
-        @apply py-4 px-2 text-gray-500 font-semibold text-xl hover:text-orange-500 transition ease-in-out duration-300;
+        @apply py-4 px-2 text-purple-500 font-semibold text-xl hover:text-cyan-500 transition ease-in-out duration-300;
     }
 
     .nav-active {
@@ -26,7 +26,7 @@
     }
 
     .container-fullid {
-        @apply px-2 md:px-20 py-2 md:py-6;
+        @apply px-2 md:px-10 py-2 md:py-6;
     }
 
     .section-header {
@@ -66,10 +66,10 @@
     }
 
     .lang-button {
-        @apply flex items-center text-xs space-x-1 cursor-pointer uppercase font-bold rounded-full border-slate-300 p-1 pr-2 border-[1px] bg-white;
+        @apply flex items-center text-xs space-x-1 cursor-pointer uppercase font-bold rounded-full border-slate-300 p-1 pr-2 border-[1px] bg-white text-purple-500 hover:text-cyan-500;
     }
 
     .footer-container {
-        @apply px-10 md:px-20 flex flex-col items-center justify-center mb-4;
+        @apply px-10 md:px-20 mb-4;
     }
 }
